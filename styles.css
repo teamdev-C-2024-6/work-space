@@ -2,9 +2,20 @@ body {
     background-color: aqua;
 }
 
-h1 {
-    color: black;
-    font-size: 3rem;
-    text-align: center;
-  }
+/* google fonts */
+.yuji-syuku-regular {
+    font-family: "Yuji Syuku", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
+/* lucky.html */
+
+.lucky-container {
+    width: 280px;
+}
+
+/* おみくじ結果 */
+.lucky-fortune {
+    font-size: 5rem;
+}
