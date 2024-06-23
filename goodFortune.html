@@ -1,41 +1,48 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!DOCTYPE html>
+<html lang="ja">
 
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="styles.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>大吉</title>
-    </head>
-  <body>
-    <div class = "container">
-        <div class = "row justify-content-center">
-            <h1 class = "row text-center-center py-5">大吉</h1>
-        </div>
-        <div>
-            <img class = "container row justify-content-center" src = "https://pixabay.com/get/gfb31ab5904483af5f59df6dced2fd23ec5beeb306a45ad89e3efdad99609c5ce7be11453a0c30444016ff10e949c576a_640.jpg">
-        </div>
-            <div class = "row">
-            <p class = "col-12 py-5 text-center">普段は頭を悩ませるような難題でも、一瞬で次々と解決させてしまうでしょう。</p>
-            <hr class = "container ">
-            </div>
-        </div>
-        <div class = "row text-center">
-            <h1 class = "container py-5">ラッキー言語</h2>
-            <h2 class = "container py-5">Java</h3>
-            <hr class = "container ">
-        </div>
-        <div class = "row text-center">
-            <h1 class = "container py-5">ラッキーデータベース</h2>
-            <h2 class = "container text-center py-5">SQL</h3>
-            <hr class = "container ">
-        </div>
-        <div class = "row text-center">
-            <h1 class = "container text-center py-5">ラッキーエディタ</h2>
-            <h2 class = "container text-center  py-5">nano</h3>
-            <hr class = "container ">
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>おみくじの結果は大吉です</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="min-vh-100 d-flex justify-content-center align-items-center bg-info-subtle">
+  <div
+    class="lucky-container d-flex flex-column align-items-center bg-white my-4 text-info-emphasis text-center yuji-syuku-regular border border-info">
+    <h5 class="py-3 mb-2">ソフトウェア開発みくじ</h5>
+    <div class="px-3 mb-3">
+      <img class="img-fluid" src="images/pose_dance_ukareru_man.png" alt="大吉">
+      <h1 class="lucky-fortune mb-4">大吉</h1>
+      <p>普段は頭を悩ませるような難題でも、一瞬で次々と解決させてします！</p>
     </div>
-  </body>
+    <div class="mb-3">
+      <p class="mb-2">✿ラッキー言語✿</p>
+      <h5>Java</h5>
+    </div>
+    <div class="mb-3">
+      <p class="mb-2">✿ラッキーデータベース✿</p>
+      <h5>SQL Server</h5>
+    </div>
+    <div class="mb-3">
+      <p class="mb-2">✿ラッキーエディタ✿</p>
+      <h5>Nano</h5>
+    </div>
+    <button onclick="location.href='./index.html'" class="btn btn-info mb-4">もう一度おみくじを引く</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
