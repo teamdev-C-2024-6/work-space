@@ -1,9 +1,7 @@
 body {
     background-color: aqua;
 }
-p {
-    font-size: 1.2rem;
-}
+
 
 h1 {
     color: black;
@@ -11,6 +9,24 @@ h1 {
     text-align: center;
   }
 
-hr {
-    border : solid 0.05rem  rgb(174, 0, 255);
+  body {
+    background-color: aqua;
+}
+
+/* google fonts */
+.yuji-syuku-regular {
+    font-family: "Yuji Syuku", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* lucky.html */
+
+.lucky-container {
+    width: 280px;
+}
+
+/* おみくじ結果 */
+.lucky-fortune {
+    font-size: 5rem;
 }
