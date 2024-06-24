@@ -1,2 +1,48 @@
-大吉
-<button onclick="location.href='./index.html'">戻る</button>
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>おみくじの結果は大吉です</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="min-vh-100 d-flex justify-content-center align-items-center bg-info-subtle good-fortune-body-animation">
+  <div
+    class="goodFortune-container d-flex flex-column align-items-center bg-white my-4 text-info-emphasis text-center yuji-syuku-regular border border-info">
+    <h5 class="py-3 mb-2">ソフトウェア開発みくじ</h5>
+    <div class="px-3 mb-3">
+      <img class="img-fluid" src="https://pixabay.com/get/gbbd5e69ac2de01b3ffb7d6f80458c809bc9a83ba05358be38a32e00f710c4cae50c93d7dc74bf69c703c67bd8a4e4962_640.jpg" alt="大吉">
+      <h1 class="good-fortune mb-4">大吉</h1>
+      <p>普段は気が滅入るような難題でも、一瞬で次々と解決させてしまいます！</p>
+    </div>
+    <div class="mb-3">
+      <p class="mb-2">✿ラッキー言語✿</p>
+      <h5>Java</h5>
+    </div>
+    <div class="mb-3">
+      <p class="mb-2">✿ラッキーデータベース✿</p>
+      <h5>PostgreSQL</h5>
+    </div>
+    <div class="mb-3">
+      <p class="mb-2">✿ラッキーエディタ✿</p>
+      <h5>Nano</h5>
+    </div>
+    <button onclick="location.href='./index.html'" class="btn btn-info mb-4">もう一度おみくじを引く</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
+
