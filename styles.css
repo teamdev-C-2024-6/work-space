@@ -2,7 +2,6 @@ body {
     background-color: aqua;
 }
 
-
 h1 {
     color: black;
     font-size: 3rem;
@@ -20,6 +19,7 @@ h1 {
     font-style: normal;
 }
 
+
 /* lucky.html */
 
 .lucky-container {
@@ -29,4 +29,27 @@ h1 {
 /* おみくじ結果 */
 .lucky-fortune {
     font-size: 5rem;
+}
+
+
+/* goodFortune.html */
+.goodFortune-container {
+    width: 280px
+}
+/* 大吉結果 */
+.good-fortune {
+    font-size: 5rem;
+}
+
+/* 大吉アニメーション */
+.good-fortune-body-animation {
+    animation: fade-in linear 1s
+}
+@keyframes fade-in {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
 }
