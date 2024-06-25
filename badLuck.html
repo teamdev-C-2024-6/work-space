@@ -1,2 +1,48 @@
-凶
-<button onclick="location.href='./index.html'">戻る</button>
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>おみくじの結果は凶です</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yuji+Syuku&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="min-vh-100 d-flex justify-content-center align-items-center bg-info-subtle good-fortune-body-animation">
+  <div
+    class="goodFortune-container d-flex flex-column align-items-center bg-white my-4 text-info-emphasis text-center yuji-syuku-regular border border-info">
+    <h5 class="py-3 mb-2">ソフトウェア開発みくじ</h5>
+    <div class="px-3 mb-3">
+      <img class="img-fluid" src="images/disappointed.jpeg" alt="凶">
+      <h1 class="good-fortune mb-4">凶</h1>
+      <p>チーム開発でデプロイ用のサーバーを破壊し、チームに多大な迷惑をかけるでしょう。。</p>
+    </div>
+    <div class="mb-3">
+      <p class="mb-2">✿ラッキー言語✿</p>
+      <h5>Python</h5>
+    </div>
+    <div class="mb-3">
+      <p class="mb-2">✿ラッキーデータベース✿</p>
+      <h5>MySQL</h5>
+    </div>
+    <div class="mb-3">
+      <p class="mb-2">✿ラッキーエディタ✿</p>
+      <h5>VScode</h5>
+    </div>
+    <button onclick="location.href='./index.html'" class="btn btn-info mb-4">もう一度おみくじを引く</button>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
+
